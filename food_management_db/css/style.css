@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #007bff;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+
+}
+
+.container {
+    margin-top: 50px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+    .button-link:hover {
+        background-color: #0056b3;    /* Darker background color on hover */
+    }
